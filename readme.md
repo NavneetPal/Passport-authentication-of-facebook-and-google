@@ -6,7 +6,7 @@ This is user login using google and facebook app using Node.js,Express,Passport,
 
 ## Usage
 
-```
+```bash
 $ npm install
 ```
 
@@ -21,7 +21,7 @@ FACEBOOK_APP_SECRET= Your facebook app secret
 DB_URL= Your databse url(it can be local url or mongodb atlas url)
 ```
 
-```
+```bash
 $ npm start
 # Or run with Nodemon
 $ npm run dev
