@@ -1,0 +1,28 @@
+<%- include('./partials/header') %> 
+<% if (success && success.length>0) { %>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <%= success %> 
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+<% if (error && error.length>0) { %>
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <%= error %> 
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+    <main class="d-flex justify-content-center align-items-center mt-5">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Authenticate Using Google Auth</h5>
+          <div class="d-grid gap-2">
+            <a class="btn btn-danger" type="button" href="/auth/google">LOGIN WITH GOOGLE <i class="fab fa-google"></i></a>
+            <a class="btn btn-danger" type="button" href="/auth/facebook">LOGIN WITH FACEBOOK <i class="fab fa-facebook"></i></a>
+          </div>
+   
+        </div>
+      </div>
+    </main>
+
+<%- include('./partials/footer') %> 
