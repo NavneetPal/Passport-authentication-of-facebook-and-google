@@ -17,7 +17,7 @@ GOOGLE_CLIENT_ID= Your google client id
 GOOGLE_CLIENT_SECRET= Your google client secret here
 SECRET= Any secret for session(eg."iamfullstackdeveloper")
 FACEBOOK_APP_ID= Your facebook app id
-FACEBOOK_APP_SECRET=2 Your facebook app secret
+FACEBOOK_APP_SECRET= Your facebook app secret
 DB_URL= Your databse url(it can be local url or mongodb atlas url)
 ```
 
